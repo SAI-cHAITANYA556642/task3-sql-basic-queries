@@ -1,19 +1,22 @@
 # Task 3: Writing Basic SELECT Queries, SQL Developer Internship
+1.Use SELECT * and specific columns<br>
+2.Apply WHERE, AND, OR, LIKE, BETWEEN<br>
+3.Sort with ORDER BY<br>
 ## Objective
 >>To practice and show how to retrieve and filter data from a relational database using basic SQL SELECT operations.
 ## Tools Used
->>MySQL Workbench
-##Version Control System
-git
+>>MySQL Workbench<br>
+>>Version Control System:git
+
 ## Sample Table (students)
 >>Example table used for demonstration:sql<br>
-CREATE TABLE students (
-student_id INT PRIMARY KEY AUTO_INCREMENT,
-name VARCHAR(100),
-gender VARCHAR(10),
-department VARCHAR(50),
-admission_date DATE,
-total_marks INT
+CREATE TABLE students(<br>
+student_id INT PRIMARY KEY AUTO_INCREMENT,<br>
+name VARCHAR(100),<br>
+gender VARCHAR(10),<br>
+department VARCHAR(50),<br>
+admission_date DATE,<br>
+total_marks INT<br>
 );
 ##Key Concepts: Filtering, Projection
 ##Filtering 
