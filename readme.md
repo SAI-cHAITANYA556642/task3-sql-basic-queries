@@ -17,9 +17,9 @@ gender VARCHAR(10),<br>
 department VARCHAR(50),<br>
 admission_date DATE,<br>
 total_marks INT<br>
-);
-##Key Concepts: Filtering, Projection
-##Filtering 
+);<br>
+>>Key Concepts: Filtering, Projection<br>
+Filtering
 >>Filtering limits the rows returned by a query based on certain conditions using the WHERE clause.<br>
 >>purpose:Select specific rows [conditions].<br>
 >>afferts:Rows <br>
