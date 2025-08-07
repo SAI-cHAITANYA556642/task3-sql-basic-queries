@@ -3,11 +3,10 @@
 2.Apply WHERE, AND, OR, LIKE, BETWEEN<br>
 3.Sort with ORDER BY<br>
 ## Objective
->>To practice and show how to retrieve and filter data from a relational database using basic SQL SELECT operations.
+>>To practice and show how to retrieve and filter data from a relational database using basic SQL SELECT operations.<br>
 ## Tools Used
 >>MySQL Workbench<br>
->>Version Control System:git
-
+>>Version Control System:git<br>
 ## Sample Table (students)
 >>Example table used for demonstration:sql<br>
 CREATE TABLE students(<br>
@@ -19,7 +18,7 @@ admission_date DATE,<br>
 total_marks INT<br>
 );<br>
 >>Key Concepts: Filtering, Projection<br>
-Filtering
+##Filtering<br>
 >>Filtering limits the rows returned by a query based on certain conditions using the WHERE clause.<br>
 >>purpose:Select specific rows [conditions].<br>
 >>afferts:Rows <br>
@@ -27,7 +26,6 @@ Filtering
 EXAMPLE:<br>
  SELECT * FROM students<br>
 WHERE gender = 'Female' AND department = 'Computer Science';<br>
-
 ##Projection<br>
 >>Projection means selecting specific columns, or fields, from a table.<br>
 >>purpose:Select specific columns <br>
